@@ -1,4 +1,4 @@
-# Profile (`sajadinmaker`) — Product Documentation
+# Profile (`sajadxdp`) — Product Documentation
 
 > Personal-brand landing repo. Single-file product: `README.md` renders as the GitHub profile.
 
@@ -12,8 +12,8 @@ Elevator pitch — “Backend systems first, then AI + usable interface” — w
 
 - No build/run. Edit `README.md` only; GitHub renders automatically.
 - Keep in sync with `../site/index.html`: project list, blurbs, links, “currently building”.
-- Link hygiene: Portfolio (`https://sajadinmaker.github.io/`), project repos, PyPI `neudb`, LinkedIn, `mailto:abdullasajad01@gmail.com`. Check quarterly (no CI link-check yet).
-- Verify: `npx markdownlint README.md` or VS Code preview; confirm table + links render on github.com/sajadinmaker.
+- Link hygiene: Portfolio (`https://sajadxdp.github.io/`), project repos, PyPI `neudb`, LinkedIn, `mailto:abdullasajad01@gmail.com`. Check quarterly (no CI link-check yet).
+- Verify: `npx markdownlint README.md` or VS Code preview; confirm table + links render on github.com/sajadxdp.
 
 ## 3. Roadmap
 
