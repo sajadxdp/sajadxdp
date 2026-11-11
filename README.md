@@ -20,12 +20,11 @@ I build backend systems first, then layer AI and a usable interface on top. I al
 | ------- | ---------- |
 | [Lexora](https://github.com/sajadxdp/lexora-ai) | Asynchronous document processing and retrieval. Celery ingestion pipeline, per-user vector isolation, retrieval with citations, SSE streaming. FastAPI, PostgreSQL, Redis, FAISS. |
 | [EsenceLab](https://github.com/sajadxdp/esencelab) | AI hiring product. Next.js frontend, Express API with JWT auth and RBAC, FastAPI service for resume parsing and job matching, PostgreSQL/Supabase. |
-| [vpnbox](https://github.com/sajadxdp/vpnbox) | Free public VPN for Linux. Fetches the live VPN Gate server list, ranks relays by reachability, filters by country or city, tunnels through OpenVPN. One stdlib-only Python file. |
 | [HookFlow](https://github.com/sajadxdp/hookflow) | Reliable webhook and event delivery. Accept first, persist, then deliver with atomic claims, leases, and dead-letter recovery. Zero double delivery. FastAPI, PostgreSQL, Redis. |
 | [neuDB](https://github.com/sajadxdp/neudb) | Embedded Python database engine. Crash-atomic JSON-file persistence, human-readable files, honest benchmarks. |
 
 Each one is a different problem: retrieval quality, shipping a
-product end to end, a tool that has to work on other machines, delivery that survives failure, and storage that stays honest.
+product end to end, delivery that survives failure, and storage that stays honest.
 
 ## Links
 
@@ -37,4 +36,4 @@ product end to end, a tool that has to work on other machines, delivery that sur
 
 ## Maintenance
 
-Last maintained: 2026-10-26 – dead PyPI reference removed from neuDB row; CI audit gates fixed on esencelab; featured work: Lexora, EsenceLab, vpnbox, HookFlow, neuDB.
+Last maintained: 2026-11-11 - vpnbox and fusion-cam retired and deleted; featured work: Lexora, EsenceLab, HookFlow, neuDB.
